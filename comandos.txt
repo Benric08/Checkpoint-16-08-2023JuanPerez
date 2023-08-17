@@ -1,0 +1,16 @@
+ 1020  git checkout -b feature
+ 1021  mkdir Hadware Software SeguridadInformatica| touch Hadware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+ 1022  mkdir Hadware Software SeguridadInformatica
+ 1023  touch Hadware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+ 1024  git add .
+ 1025  git commit -m "commit 02 de RichardBendezu"
+ 1026  git push origin feature
+ 1027  git pull
+ 1028  git pull origin main
+ 1029  git push origin feature
+ 1030  git checkout main
+ 1031  mv main.js resumenHardware.txt
+ 1032  mv index.html resumenSoftware.txt
+ 1033  code .
+ 1034  git add .
+ 1035  touch comandos.txt
